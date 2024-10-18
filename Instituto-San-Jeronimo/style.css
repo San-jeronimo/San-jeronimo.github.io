@@ -7,6 +7,19 @@ body{
 	font-size:14px;
 	color:#888;
 }
+
+audio {
+    width: 100%; /* Hace que el reproductor de audio ocupe todo el ancho del contenedor */
+}
+
+
+#audioCanvas {
+    width: 100%;    /* Abarca todo el ancho disponible */
+    height: 150px;  /* Altura de la visualización */
+    border: 1px solid #ccc; /* Borde opcional */
+    margin-top: 10px;
+}
+
 .pro-features {
 	position: fixed;
 	right: -300px;
